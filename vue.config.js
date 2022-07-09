@@ -21,7 +21,7 @@ module.exports = {
     },
   },
   pwa: {
-    name: 'YesPlayMusic',
+    name: '音乐 - SmallKunKun',
     iconPaths: {
       favicon32: 'img/icons/favicon-32x32.png',
     },
@@ -38,7 +38,7 @@ module.exports = {
       entry: 'src/main.js',
       template: 'public/index.html',
       filename: 'index.html',
-      title: 'YesPlayMusic',
+      title: '音乐 - SmallKunKun',
       chunks: ['main', 'chunk-vendors', 'chunk-common', 'index'],
     },
   },
